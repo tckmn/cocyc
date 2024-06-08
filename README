@@ -1,0 +1,12 @@
+colorscheme cycler
+
+currently supports vim + alacritty
+
+== vim ==
+install chriskempson/base16-vim
+add to vimrc:
+  if filereadable($HOME.'/.cache/cocyc/vim.vim') | source $HOME/.cache/cocyc/vim.vim | else | colorscheme base16-default-dark | endif
+
+== alacritty ==
+add to alacritty.toml:
+  import = ["~/.cache/cocyc/alacritty.toml"]
