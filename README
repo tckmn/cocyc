@@ -1,6 +1,6 @@
 colorscheme cycler
 
-currently supports vim + alacritty
+currently supports vim + alacritty + i3
 
 == vim ==
 install chriskempson/base16-vim
@@ -10,3 +10,6 @@ add to vimrc:
 == alacritty ==
 add to alacritty.toml:
   import = ["~/.cache/cocyc/alacritty.toml"]
+
+== i3 ==
+i'll document it later

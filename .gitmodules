@@ -1,3 +1,6 @@
 [submodule "base16-alacritty"]
 	path = base16-alacritty
 	url = https://github.com/aarowill/base16-alacritty
+[submodule "base16-i3"]
+	path = base16-i3
+	url = https://github.com/tinted-theming/base16-i3
